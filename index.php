@@ -2,12 +2,13 @@
 $produit1 = ["nom" => "Livre", "prix" => 15, "quantite" => 2];
 $produit2 = ["nom" => "Stylo", "prix" => 3, "quantite" => 5];
 $produit3 = ["nom" => "Sac", "prix" => 25, "quantite" => 1];
+$produit4 = ["nom" => "Crayon", "prix" => 2, "quantite" => 3];
 
 function calculerSousTotal($produit) {
     return $produit['prix'] * $produit['quantite'];
 }
 
-$panier = [$produit1, $produit2, $produit3];
+$panier = [$produit1, $produit2, $produit3, $produit4];
 $total = 0;
 ?>
 <!DOCTYPE html>
